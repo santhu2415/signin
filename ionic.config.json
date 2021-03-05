@@ -1,0 +1,10 @@
+{
+  "name": "signin",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}

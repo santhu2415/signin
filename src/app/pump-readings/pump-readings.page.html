@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button>pump</ion-back-button></ion-buttons>
+    <ion-title>Pump readings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+  <ion-item>
+    <ion-label>Cashier Name</ion-label>
+    <ion-select placeholder="Cashier(From Empolyee list)">
+      <ion-select-option value="T">Cashier1</ion-select-option>
+      <ion-select-option value="t">cashier2</ion-select-option>
+      <ion-select-option value="t">cashier3</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+      <ion-label>Pump ?</ion-label>  
+    <ion-select placeholder="Pump(From Empolyee list)">
+      <ion-select-option value="p">pump1</ion-select-option>
+      <ion-select-option value="p">pump2</ion-select-option>
+      <ion-select-option value="p">pump3</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label>Nozzles</ion-label>
+    <ion-select placeholder="Nozzle(From Empolyee list)">
+      <ion-select-option value="T">Nozzle1</ion-select-option>
+      <ion-select-option value="t">Nozzle2</ion-select-option>
+      <ion-select-option value="t">Nozzle3</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-list>
+    <ion-item>
+      <ion-label>MS Open Reading</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>MS Close Reading</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>HS Open Reading</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>HS close Reading</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" class="btn">submit</ion-button></form>
+</ion-content>

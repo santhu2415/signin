@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button>empoly profile</ion-back-button></ion-buttons>
+    <ion-title>Addemploy</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item>
+    <ion-avatar slot="start">
+      <img src="/home/praveen/Desktop/signin/src/assets/pb.jpeg">
+    </ion-avatar>
+    <ion-label>profile</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Name</ion-label>
+    <ion-input  name="name" type="text"  ngModel required></ion-input>
+    
+  </ion-item>
+  <ion-item>
+    <ion-label>Last</ion-label>
+    <ion-input  name="last" type="text" ngModel required></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>DOB</ion-label>
+    <ion-input  name="dob" type="text"  ngModel required></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Address</ion-label>
+    <ion-input  name="address" type="text"  ngModel required></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Phone Number</ion-label>
+    <ion-input  name="number" type="text" ngModel required></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Digital signature</ion-label>
+    <ion-input  name="sign" type="text" ngModel required></ion-input>
+  </ion-item>
+  <ion-button expand="block"  class="btn">Upload aadhar</ion-button>
+  <ion-button expand="block"  class="btn">Submit</ion-button>
+  </form>
+</ion-content>

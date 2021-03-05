@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      LOGIN
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!--<ion-header collapse="condense">
+    <ion-toolbar> 
+    </ion-toolbar>
+  </ion-header>
+ ---- <app-explore-container name="Tab 1 page"></app-explore-container>--->
+ <form>
+   
+   <ion-item>
+    <ion-input  placeholder="email" type="text"  required></ion-input>
+   </ion-item>
+   <ion-item>
+     <ion-input placeholder="password" type="text" required></ion-input>
+   </ion-item><br>
+    <ion-button expand="block" color="light" (click)="login()" >Login</ion-button>
+    <br>
+   <ion-row>
+     <ion-col>
+   <a [routerLink]="['/create account']" class="small">or create an account</a></ion-col>
+  </ion-row>
+
+ </form>
+</ion-content>
